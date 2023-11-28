@@ -1,7 +1,8 @@
 if __name__ == '__main__':
-    max_value = 10
-    min_value = 2
-    step = 3
+    print("Generator liczb calkowitych")
+    min_value = int(input("Wprowadz wartosc minimalna: "))
+    max_value = int(input("Wprowadz wartosc maksymalna: "))
+    step = int(input("Wprowadz krok: "))
     values = []
     current = min_value
 
