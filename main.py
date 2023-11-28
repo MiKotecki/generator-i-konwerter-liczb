@@ -9,7 +9,12 @@ if __name__ == '__main__':
         values.append(current)
         current += step
 
-    print(values)
+    # print(values)
+    with open("input.txt", "w") as file:
+        for value in values:
+            file.write(f"{value}\n")
+        # file.write(str(value))
+        # file.write("\n")
 
 
 
